@@ -24,10 +24,10 @@ echo Copying GreenLuma (Stealth) to Steam directory
 copy /Y "%~dp0user32SF.dll" "%STEAM_PATH%\user32.dll"
 
 choice /C YN /M "Run DeleteSteamAppCache? (Run if games or DLC stop being unlocked)"
-if %ERRORLEVEL%==1 (start "" "%~dp0DeleteSteamAppCache.exe")
+if %ERRORLEVEL%==1 (start /wait "" "%~dp0DeleteSteamAppCache.exe")
 
 choice /C YN /M "Refresh AppList? (Refresh if you installed a new games or DLC)"
-if %ERRORLEVEL%==1 (start "" "%~dp0sunflower-luma.exe")
+if %ERRORLEVEL%==1 (start /wait "" "%~dp0sunflower-luma.exe")
 
 echo Launching Steam with GreenLuma...
 
