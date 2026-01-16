@@ -32,5 +32,6 @@ if [ -f "$OUTPUT_ZIP" ]; then
 fi
 cd "$PROJECT_DIR"
 zip -r "GreenLuma.zip" "GreenLuma/"
+rm -rf "GreenLuma/"
 
 echo "Output: $OUTPUT_ZIP"
