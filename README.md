@@ -14,6 +14,7 @@
 2. (Optional) Run `DeleteSteamAppCache` ONLY if you are having problems unlocking games or DLC.
 3. Refresh the AppList. Next time you launch, only refresh if you have installed a new game or DLC from the Family Library. Read more below.
 4. Downloads are blocked by GreenLuma. Launch Steam without GreenLuma to download new games and DLC.
+5. **GreenLuma is automatically removed** after exiting Steam.
 
 #### AppList
 
