@@ -13,7 +13,19 @@
 1. Launch `Steam (GreenLuma)` from start menu.
 2. (Optional) Run `DeleteSteamAppCache` ONLY if you are having problems unlocking games or DLC.
 3. Refresh the AppList. Next time you launch, only refresh if you have installed a new game or DLC from the Family Library. Read more below.
+4. Downloads are blocked by GreenLuma. Launch Steam without GreenLuma to download new games and DLC.
 
 #### AppList
 
-todo: explain
+The AppList is automatically generated and contains all games and DLC installed from your Family Library. This ensures the owner has priority access to their shared licenses.
+
+tl;dr: It's for unlocking or bypassing a legitimate copy without occupying the license.
+
+#### Credits
+
+- `user32SF.dll`: GreenLuma 2025 1.7.1 by Steam006
+- `DeleteSteamAppCache.exe`: GreenLuma 2025 1.7.1 by Steam006
+
+#### Sunflower?
+
+It's our Steam Family name.
