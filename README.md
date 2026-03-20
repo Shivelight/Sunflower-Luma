@@ -24,8 +24,8 @@ tl;dr: It's for unlocking or bypassing a legitimate copy without occupying the l
 
 #### Credits
 
-- `user32SF.dll`: GreenLuma 2025 1.7.1 by Steam006
-- `DeleteSteamAppCache.exe`: GreenLuma 2025 1.7.1 by Steam006
+- `user32SF.dll`: GreenLuma 2026 1.7.3 by Steam006
+- `DeleteSteamAppCache.exe`: GreenLuma 2026 1.7.3 by Steam006
 
 #### Sunflower?
 
