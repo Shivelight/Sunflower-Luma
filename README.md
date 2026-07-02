@@ -3,7 +3,7 @@
 #### How to install
 
 1. Download [latest release](https://github.com/Shivelight/Sunflower-Luma/releases).
-2. Extract to any folder.
+2. Extract to any folder. For example: `C:/Tools/` or other "permanent" folder. Avoid `Downloads` or temporary folder.
 3. Run `1_get_steam_dir.cmd` or set `steam_path.txt` manually.
 4. Run `2_generate_shortcut.cmd`. This will generate `Steam (GreenLuma)` shortcut you may pin to start menu.
 5. (Optional) Run `3_add_cleanup_on_startup.cmd`. This will add a startup task to the Windows Task Scheduler to clean up the leftover `user32.dll` (from previous GreenLuma launch) caused by an unexpected shutdown. You can remove the task at any time by running `3b_remove_cleanup_on_startup.cmd`.
